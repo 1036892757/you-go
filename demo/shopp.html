@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/comment.css">
+	<link rel="stylesheet" href="../css/head.css">
+	<link rel="stylesheet" href="../font_1795546_0d28di0steg/iconfont.css">
+	<link rel="stylesheet" href="../css/shoppys.css">
+</head>
+<body>
+	 <!-- 公共头部 -->
+	 <div class="head">
+		<div class="headwarp">
+
+			<ul class="headleft">
+				<li>
+					<a href="" target="blank">关注</a>
+					<div class="abs">
+						<img src="../img/x22.jpg" alt="">
+						<span>关注公众号</span>
+					</div>
+				</li>
+				<li>
+					<a href="" target="blank">下载App</a>
+					<div class="abs1">
+						<img src="../img/app.jpg" alt="">
+						<span>优购app下载</span>
+					</div>
+				</li>
+			</ul>
+			<ul class="headright">
+				<li class="welcome-box">
+                    欢迎你：<span id="uesrSpan"></span>
+                    <a  target="blank" class="btnLogout">注销</a>
+                    /
+                    <a href="zhuce.html" target="blank">注册</a>
+                </li>
+				<li class="firstli">
+					<a href="#" target="blank">注册</a>
+					/
+					<a href="#" target="blank">登录</a>
+				</li>
+				<li>
+					<a href="#" target="blank">
+						<i class="iconfont icon-shoucang "></i>
+						<span>收藏</span>
+					</a>
+				</li>
+				<li>
+					<a href="#" target="blank">
+						<i class="iconfont icon-gouwudai"></i>
+						<span>购物袋</span>
+					</a>
+				</li>
+				<li class="lastli">
+					<a href="#" target="blank">公告</a>
+					<div>
+						<ul>
+							<li>
+								<a href="" target="blank">
+									近期物流情况安排通知
+								</a>
+							</li>
+							<li>
+								<a href="" target="blank">
+									优购客服电话变更
+								</a>
+							</li>
+							<li>
+								<a href="" target="blank">
+									关闭分享购频道
+								</a>
+							</li>
+							<li>
+								<a href="" target="blank">
+									提醒会员谨防诈骗电话
+								</a>
+							</li>
+						</ul>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="cencart">
+    	<div class="cencart-1">
+    		<h1 class="logo">
+    			<a href="head.html" title="优生活，购时尚">
+    				<img src="../img/logo-yg.png" alt="优购时尚商城"/> <img src="../img/1dd.png" class="dd1"/>
+    			</a>
+    		</h1>
+    		<div class="cart_step">
+    			<ul>
+    				<li class="current">
+    				我的购物袋
+    				<em></em>
+    				<i></i>
+    				</li>
+    				<li>
+    				提交订单中心
+    				<em></em>
+    				<i></i>
+    				</li>
+    				<li>
+    				成功提交订单
+    				<em></em>
+    				<i></i>
+    				</li>
+    			</ul>
+    		</div>
+    	</div>
+    </div>
+    <div class="shoppingCart">
+    	<div class="shoppbox">
+    		<table class="cart_list_tb">
+    			<colgroup></colgroup>
+    			<thead>
+    				<tr>
+    					<th class="one">
+    						<label class="ygChkbox">
+    							<input class="checkall" type="checkbox"/>
+    							
+    							全选
+    						</label>
+    					</th>
+    					<th class="two">
+    						<span class="">商品列表</span>
+    					</th>
+    					<th class="four">颜色尺码</th>
+    					<th class="four">单价</th>
+    					<th class="four">数量</th>
+    					<th class="four">小计(元)</th>
+    					<th class="five">操作</th>
+    				</tr>
+    			</thead>
+    			<tbody>
+    				<!-- <tr>
+    					<td class="tr_td" colspan="7">
+    						<div class="shopping_cart-_tr">
+    							<div class="shopcrt"></div>
+    							<dl class="clearfix">
+    								<dd class="col_chkbox fl">
+    									<label class="ygChkbox">
+    							         <input class="j-checkbox" type="checkbox"/>
+    										
+    										
+    									</label>
+    								</dd>
+    								<dt class="col_1 rel fl">
+    									<a href="" target="_blank">
+    										<img src="../img/101374228_01_t.jpg"/ width="60px" height="60px" class="thuimg">
+    									</a>
+    								</dt>
+    								<dd class="col_2 fl rel">
+    									<a href="" target="_blank" title="森达2020春季新款专柜同款户外青年舒适休闲男工装鞋1QG15AM0">
+    										<div>森达2020春季新款专柜同款户外青年舒适休闲男工装鞋1QG15AM0</div>
+    									</a>
+    								</dd>
+    								<dd class="col_3 fl">
+    									<div class="col_3_div">
+    										<p class="col_3_p1 tleft">
+    											颜色:
+    											<em class="f_gray">棕色</em>
+    										</p>
+    										<p class="col_3_p2 tleft">
+    											尺码:
+    											<em class="f_gray">44</em>
+    										</p>
+    									</div>
+    								</dd>
+    								<dd class="col_4 fl f_gray rel">
+    									1199
+    								</dd>
+    								<dd class="col_5 fl rel">
+    									<a  class="goodsSub fl" proindex="1" >-</a>
+    									<input class="goodsTxt fl" type="text" name="goodsCount" id="" value="1" />
+    									<a  class="goodsPlus fl" proindex="1">+</a>
+    								</dd>
+    								<dd class="col_6 fl">
+    									<strong class="corg">1199</strong>
+    								</dd>
+    								<dd class="col_7 fl">
+    									<a  class="dd7del f_gray">删除</a>
+    								</dd>
+    							</dl>
+    							<div class="shopcrt_d7div">  
+    								
+    							</div>
+    						</div>
+    					</td>
+    				</tr> -->
+    			</tbody>
+    		</table>
+    		<ul class="shopcrt_operations">
+    			<li>
+    				<label class="ygChkbox">
+					
+						<input class="checkall" type="checkbox"/>
+						
+    					全选
+    				</label>
+    			</li>
+    			<li>
+    				<a href="">移入收藏夹</a>
+    			</li>
+    			<li class="remove">
+    				<a>删除</a>
+    			</li>
+    		</ul>
+    		<div class="shopcrt_opt clearfix">
+    			
+    		</div>
+    	</div>
+    </div>
+    <div class="cart_gary_box">
+    	<!-- <a href="#"  class="cart_goon fl">继续购物</a>
+    	<div class="fl">
+    		<a  class="clearShopcart">清空购物袋</a>
+    	</div>
+    	<div class="fr">
+    		<strong>总计（不含运费）</strong>
+    		:
+    		<strong class="cgray">￥</strong>
+    		<strong class="corg1">0</strong>
+    		<a href=""  class="cart_b_paydtn">去结算</a>
+    	</div> -->
+    </div>
+    <div class="clearfix cen">
+    	<span class="paysub fr">
+    		<a href="https://www.yougou.com/help/hotIssues.html" target="_blank">什么是最低订单金额</a>
+    		<i>&nbsp;</i>
+    	</span>
+    </div>
+    <div class="clearfix cen ">
+    	<div class="fr cgray cart_xinxi">
+    		<p class="cart_bz">
+    			购物保障
+    			<i class="icon_zp"></i>
+    			100%正品
+    			<i class="icon_thh"></i>
+    			10天退换货
+    			<i class="icon_bcj"></i>
+    			10天补差价
+    		</p>
+    		<p>优惠券/礼品卡在下一步使用</p>
+    		<p>
+    			<a href="head.html" target="_blank" class="tarche">帮助我们改进购物流程</a>
+    		</p>
+    	</div>
+    </div>
+    <div class="footer-t">
+    	<div class="footer-t-2">
+    		<p>
+    			Copyright © 2011-2014 Yougou Technology Co., Ltd. 
+    			<a href="">粤ICP备09070608号-4</a> 增值电信业务经营许可证: <a href="">粤 B2-20090203</a>
+    		</p>
+    	</div>
+    </div>
+</body>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/cookieTools.js"></script>
+<script src="../js/yonghu.js"></script>
+<form action=></form>
+<script>
+	
+	function getshoppingCar(cb){
+		$.get(
+			"../getShoppingCart.php",
+			{
+				"vipName":getCookie("username")
+			},
+			(data)=>{
+				let htmlStr = "" 
+				let htmlStr2 = ""
+				data.forEach(goods=>{
+					htmlStr += `
+					<tr>
+    					<td class="tr_td" colspan="7">
+    						<div class="shopping_cart-_tr">
+    							<div class="shopcrt"></div>
+    							<dl class="clearfix">
+    								<dd class="col_chkbox fl">
+    									<label class="ygChkbox">
+    							         <input class="j-checkbox" type="checkbox"/>				
+    									</label>
+    								</dd>
+    								<dt class="col_1 rel fl">
+    									<a href="" target="_blank">
+    										<img src="${goods.goodsImg}"/ width="60px" height="60px" class="thuimg">
+    									</a>
+    								</dt>
+    								<dd class="col_2 fl rel">
+    									<a href="" target="_blank" title="森达2020春季新款专柜同款户外青年舒适休闲男工装鞋1QG15AM0">
+    										<div>${goods.goodsName}</div>
+    									</a>
+    								</dd>
+    								<dd class="col_3 fl">
+    									<div class="col_3_div">
+    										<p class="col_3_p1 tleft">
+    											颜色:
+    											<em class="f_gray">棕色</em>
+    										</p>
+    										<p class="col_3_p2 tleft">
+    											尺码:
+    											<em class="f_gray">44</em>
+    										</p>
+    										<p class="col_3_p3 tleft">
+    											编号:
+    											<em class="f_gray2">${goods.goodsId}</em>
+    										</p>
+    									</div>
+    								</dd>
+    								<dd class="col_4 fl f_gray rel">
+    									${goods.goodsPrice}
+    								</dd>
+    								<dd class="col_5 fl rel">
+    									<a  class="goodsSub fl" proindex="1" >-</a>
+    									<input class="goodsTxt fl" type="text" name="goodsCount" id="" value="${goods.goodsCount}" />
+    									<a  class="goodsPlus fl" proindex="1">+</a>
+    								</dd>
+    								<dd class="col_6 fl">
+    									<strong class="corg">${goods.goodsPrice*goods.goodsCount}</strong>
+    								</dd>
+    								<dd class="col_7 fl">
+    									<a  class="dd7del f_gray">删除</a>
+    								</dd>
+    							</dl>
+    							<div class="shopcrt_d7div">  
+    								
+    							</div>
+    						</div>
+    					</td>
+    				</tr>
+					`;
+
+					htmlStr2 =`
+					<a href="#"  class="cart_goon fl">继续购物</a>
+						<div class="fl">
+							<a  class="clearShopcart">清空购物袋</a>
+						</div>
+						<div class="fr">
+							<strong>总计（不含运费）</strong>
+							:
+							<strong class="cgray">￥</strong>
+							<strong class="corg1">0</strong>
+							<a href=""  class="cart_b_paydtn">去结算</a>
+						</div>
+					`
+				})
+				
+				$(".cart_list_tb>tbody").html(htmlStr)
+                $(".cart_gary_box").html(htmlStr2)
+				cb(); //添加事件
+			},"json")
+	}
+	
+    $(function(){
+		
+        getshoppingCar(addEvent)
+        
+	})
+
+	//修改购物车商品的数量
+    // 参数：
+    // 商品编号，修改后的商品数量
+	function updateCount(goodsId,goodsCount,cb){
+		$.get(
+			"../updateGoodsCount.php",
+			{
+				"vipName":getCookie("username"),
+				"goodsId":goodsId,
+				"goodsCount":goodsCount
+			},
+			(data)=>{
+               if(data=="0"){
+				   alert("服务器出错,修改数量失败")
+			   }else if(data=="1"){
+				   cb()
+			   }
+			}
+		)
+	}
+    
+    function deleteGoods(goodsId,cb){
+		$.get(
+			"../deleteGoods.php",
+			{
+				"vipName":getCookie("username"),
+				"goodsId":goodsId
+			},
+			(data)=>{
+				if(data=="1"){
+					alert("删除商品成功")
+					cb()
+				}else if(data=="0"){
+					alert("删除失败")
+				}
+			}
+		)
+	}
+
+
+	function addEvent(){
+            $(".checkall").change(function(){
+			$(".j-checkbox,.checkall").prop("checked",$(this).prop("checked"))
+			getSum()
+		})
+
+		$(".j-checkbox").change(function(){
+			if($(".j-checkbox:checked").length == $(".j-checkbox").length){
+				$(".checkall").prop("checked",true)
+			}else{
+				$(".checkall").prop("checked",false) 
+			}
+			getSum()
+		})
+
+		$(".goodsSub").click(function(){
+		// 	var n = $(this).siblings(".goodsTxt").val();
+		//    n--;
+		//    if(n<=1){
+		// 	   n=1
+		//    }
+		//    $(this).siblings(".goodsTxt").val(n)
+		//    var p = $(this).parent().siblings(".col_4").html();
+		//    var price = parseInt(p * n);
+		//    $(this).parent().siblings(".col_6").children(".corg").html(price)
+		//    getSum()
+
+
+		    //先修改后端的
+			let goodsId = $(this).parent().siblings(".col_3").find(".f_gray2").html()
+			// console.log(goodsId)
+		  var n = $(this).siblings(".goodsTxt").val();
+		  n--;
+		  $(this).siblings(".goodsTxt").val(n);
+          updateCount(goodsId,n,()=>{
+			  //再修改前端的代码
+			  
+			   $(this).siblings(".goodsTxt").val(n);
+			   var p = $(this).parent().siblings(".col_4").html();
+			   var price = parseInt(p * n);
+			   $(this).parent().siblings(".col_6").children(".corg").html(price)
+			   getSum()
+		  })
+		})
+		$(".goodsPlus").click(function(){
+          //先修改后端的
+		  let goodsId = $(this).parent().siblings(".col_3").find(".f_gray2").html()
+		  var n = $(this).siblings(".goodsTxt").val();
+		  n++;
+		  
+          updateCount(goodsId,n,()=>{
+			  //再修改前端的代码
+			   
+			   $(this).siblings(".goodsTxt").val(n);
+			   var p = $(this).parent().siblings(".col_4").html();
+			   var price = parseInt(p * n);
+			   $(this).parent().siblings(".col_6").children(".corg").html(price)
+			   getSum()
+		  })
+		})
+		$(".goodsTxt").change(function(){
+			// var n = $(this).val();
+			
+			// var p = $(this).parent().siblings(".col_4").html();
+			// var price = parseInt(p * n);
+			// $(this).parent().siblings(".col_6").children(".corg").html(price)
+			// getSum()
+
+		   //先修改后端的
+			let goodsId = $(this).parent().siblings(".col_3").find(".f_gray2").html()
+			var n = $(this).val();
+			$(this).siblings(".goodsTxt").val(n);
+          updateCount(goodsId,n,()=>{
+			  //再修改前端的代码
+			   
+			   $(this).siblings(".goodsTxt").val(n);
+			   var p = $(this).parent().siblings(".col_4").html();
+			   var price = parseInt(p * n);
+			   $(this).parent().siblings(".col_6").children(".corg").html(price)
+			   getSum()
+		  })
+		})
+	   
+		// getSum()
+		function getSum(){
+			var money =0;
+			var count =0;
+			// $(".j-checkbox:checked").parents(".col_chkbox").siblings(".col_5").find(".goodsTxt").each(function(index,ele){
+			// 	count += parseInt($(ele).val())
+			// })
+			$(".j-checkbox:checked").parents(".col_chkbox").siblings(".col_6").find(".corg").each(function(index,ele){
+				money += parseInt($(ele).text())
+			})
+            $(".corg1").text(money)
+		}
+
+		$(".dd7del").click(function(){
+			// $(this).parent().siblings(".cart_list_tb").children("tbody").children("tr").remove()
+			let goodsId = $(this).parent().siblings(".col_3").find(".f_gray2").html();
+			deleteGoods(goodsId,()=>{
+			$(this).parents("tr").remove()
+			})
+			
+		})
+			$(".clearShopcart").click(function(){
+				let goodsId = $(".cart_list_tb>tbody>tr .f_gray2").html();
+				deleteGoods(goodsId,()=>{
+					$(".cart_list_tb>tbody>tr").remove()
+				})
+			})
+		}
+		
+</script>
+
+</html>

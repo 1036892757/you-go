@@ -1,0 +1,151 @@
+.footer1 {
+  width: 100%;
+  height: 116px;
+  background-color: #333333;
+  border-bottom: 1px solid #666666;
+  overflow: hidden;
+}
+.footer1 > .footer-server {
+  width: 1190px;
+  margin: 0 auto;
+}
+.footer1 > .footer-server > .fcontent {
+  width: 100%;
+  margin-top: 46px;
+  margin-bottom: 42px;
+}
+.footer1 > .footer-server > .fcontent > li {
+  float: left;
+  margin-left: 50px;
+}
+.footer1 > .footer-server > .fcontent > li > i {
+  display: inline-block;
+  color: #fff;
+  width: 27px;
+  height: 27px;
+  vertical-align: middle;
+  text-align: center;
+}
+.footer1 > .footer-server > .fcontent > li > span {
+  margin-left: 10px;
+}
+.footer1 > .footer-server > .fcontent > li a {
+  font-size: 18px;
+  color: #ffffff;
+}
+.footer1 > .footer-server > .fcontent > .fli {
+  margin-left: 0;
+}
+
+.footer2 {
+  width: 100%;
+  height: 476px;
+  background-color: #333333;
+  border-bottom: 1px solid #666666;
+  overflow: hidden;
+}
+.footer2 > .top-content {
+  width: 1190px;
+  height: 130px;
+  margin: 0px auto;
+}
+.footer2 > .top-content > ul {
+  width: 1190px;
+  margin-top: 25px;
+}
+.footer2 > .top-content > ul > li {
+  float: left;
+  margin-left: 90px;
+}
+.footer2 > .top-content > ul > li > dl > dt > a {
+  font-size: 12px;
+  color: #fff;
+}
+.footer2 > .top-content > ul > li > dl dd {
+  margin-top: 19px;
+}
+.footer2 > .top-content > ul > li > dl dd > i {
+  font-size: 12px;
+  color: #fff;
+}
+.footer2 > .top-content > ul > li > dl dd > a {
+  color: #666666;
+  font-size: 12px;
+}
+.footer2 > .top-content > ul > .tcli {
+  margin-left: 0;
+}
+.footer2 > .middle-content {
+  width: 1190px;
+  margin: 0 auto;
+}
+.footer2 > .middle-content > ul {
+  display: inline-block;
+}
+.footer2 > .middle-content > .mcul1 {
+  margin-top: 160px;
+}
+.footer2 > .middle-content > .mcul1 > li {
+  float: left;
+  margin-left: 12px;
+}
+.footer2 > .middle-content > .mcul1 > li img {
+  width: 124px;
+  height: 47px;
+}
+.footer2 > .middle-content .mcul2 {
+  margin-left: 200px;
+  vertical-align: bottom;
+}
+.footer2 > .middle-content .mcul2 > li {
+  float: left;
+}
+.footer2 > .middle-content .mcul2 > li img {
+  width: 120px;
+  height: 120px;
+}
+.footer2 > .middle-content .mcul2 > li > p {
+  margin-top: 12px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+}
+.footer2 > .middle-content .mcul2 > .mcitem {
+  margin-left: 54px;
+}
+.footer2 > .middle-content2 {
+  width: 1190px;
+  height: 20px;
+  margin: 25px auto;
+}
+.footer2 > .middle-content2 > ul > li {
+  font-size: 12px;
+  color: #666666;
+  float: left;
+}
+.footer2 > .middle-content2 > ul > li > a {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  margin: 0 10px;
+}
+.footer2 > .middle-content2 > ul > .mcitem > a {
+  margin-right: 10px;
+}
+.footer2 > .bottom-content {
+  width: 1190px;
+  margin: 15px auto 35px;
+  color: #fff;
+}
+.footer2 > .bottom-content > p {
+  font-size: 12px;
+}
+.footer2 > .bottom-content a {
+  color: #fff;
+  font-size: 12px;
+}
+.footer2 > .bottom-content span {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=footer.css.map */

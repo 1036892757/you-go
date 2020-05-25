@@ -1,0 +1,302 @@
+.dwrap {
+  width: 100%;
+}
+.dwrap > .dtitle {
+  width: 1190px;
+  height: 60px;
+  line-height: 60px;
+  margin: 3px auto;
+  font-size: 12px;
+  color: #333;
+}
+.dwrap > .dtitle > a {
+  font-size: 12px;
+  color: #333333;
+}
+.dwrap > .goodswarp {
+  width: 1190px;
+  margin: 0 auto;
+  padding: 44px 0 60px;
+  height: 715px;
+  position: relative;
+}
+.dwrap > .goodswarp > .goodimgbox {
+  width: 605px;
+  height: 605px;
+  float: left;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgright {
+  width: 482px;
+  height: 479px;
+  float: left;
+  margin-left: 50px;
+  position: relative;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgright > .bigimg {
+  width: 480px;
+  height: 480px;
+  position: relative;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgright > .bigimg > .simg {
+  width: 480px;
+  height: 480px;
+  display: block;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgright > .bigimg > .mokuai {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 160px;
+  height: 160px;
+  background: pink;
+  opacity: 0.4;
+  z-index: 22;
+  display: none;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgright > .bigimg > .showbox {
+  width: 480px;
+  height: 480px;
+  overflow: hidden;
+  position: absolute;
+  left: 500px;
+  z-index: 999;
+  top: 0;
+  border: 1px solid black;
+  display: none;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgright > .bigimg > .showbox > img {
+  width: 1440px;
+  height: 1140px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 999;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgleft {
+  float: left;
+  text-align: center;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgleft li {
+  padding-top: 2px;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgleft li > img {
+  padding: 2px;
+  border: 1px solid #ddd;
+  width: 60px;
+  height: 60px;
+}
+.dwrap > .goodswarp > .goodimgbox > .imgleft li > img:hover {
+  border: 1px solid black;
+}
+.dwrap > .goodswarp > .cshoping {
+  width: 528px;
+  height: 300px;
+  float: left;
+  padding-left: 54px;
+}
+.dwrap > .goodswarp > .cshoping > .logo {
+  width: 142px;
+  height: 72px;
+  line-height: 72px;
+  border: 1px solid #f6f6f6;
+  text-align: center;
+}
+.dwrap > .goodswarp > .cshoping > .logo > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.dwrap > .goodswarp > .cshoping > .logo > a > img {
+  padding: 10px 0;
+}
+.dwrap > .goodswarp > .cshoping > h1 {
+  font-size: 16px;
+  margin-top: 25px;
+  font-weight: normal;
+}
+.dwrap > .goodswarp > .cshoping > .price {
+  width: 100%;
+  padding: 4px 0 20px;
+}
+.dwrap > .goodswarp > .cshoping > .price > p {
+  margin-top: 45px;
+  text-align: left;
+}
+.dwrap > .goodswarp > .cshoping > .price > p > span {
+  font-size: 14px;
+}
+.dwrap > .goodswarp > .cshoping > .price > p > span > i {
+  font-size: 30px;
+  font-style: normal;
+  color: black;
+}
+.dwrap > .goodswarp > .cshoping > .price > p > del {
+  font-style: normal;
+}
+.dwrap > .goodswarp > .cshoping > .pline {
+  margin-top: 40px;
+  height: 0;
+  border-bottom: 1px dotted #a7a7a7;
+  margin-bottom: 15px;
+}
+.dwrap > .goodswarp > .buybuy {
+  width: 528px;
+  height: 311px;
+  float: left;
+  padding-left: 54px;
+}
+.dwrap > .goodswarp > .buybuy > .buy {
+  width: 100%;
+  height: 266px;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .color {
+  width: 100%;
+  margin-top: 20px;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .color > p > .f1 {
+  display: inline-block;
+  font-size: 12px;
+  float: left;
+  color: #333333;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .color > p > .f2 {
+  display: inline-block;
+  width: 400px;
+  margin-left: 2px;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .color > p > .f2 > a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-bottom: 5px;
+  padding: 1px;
+  margin-left: 8px;
+  border: 1px solid #ddd;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .color > p > .f2 > a:hover {
+  border: 1px solid black;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .color > p > .f2 > a > img {
+  width: 100%;
+  height: 100%;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .chima {
+  width: 100%;
+  margin-top: 35px;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .chima > p > .f3 {
+  display: inline-block;
+  font-size: 12px;
+  float: left;
+  color: #333333;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .chima > p > .f4 {
+  display: inline-block;
+  width: 400px;
+  margin-left: 2px;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .chima > p > .f4 > a {
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 0 4px 0 4px;
+  margin-right: 8px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  font-size: 12px;
+  color: #333333;
+  line-height: 20px;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .chima > p > .f4 > a:hover {
+  border: 1px solid black;
+}
+.dwrap > .goodswarp > .buybuy > .buy > .chima > p > .f4 > a > img {
+  width: 100%;
+  height: 100%;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count {
+  width: 100%;
+  height: 37px;
+  margin-top: 25px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count > span {
+  float: left;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+  display: inline-block;
+  color: #333333;
+  font-size: 12px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count .inputc {
+  float: left;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count .inputc > input {
+  width: 60px;
+  height: 30px;
+  font-size: 14px;
+  color: #666666;
+  border: 1px solid #ddd;
+  margin-top: 3px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count .shangxia {
+  float: left;
+  margin-left: 4px;
+  padding-top: 3px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count .shangxia > a {
+  display: block;
+  width: 18px;
+  height: 14px;
+  margin-bottom: 3px;
+  color: #666666;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count .shangxia > a > .up {
+  cursor: pointer;
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background: url(../img/css_sprites.png) -119px -104px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .count .shangxia > a > .down {
+  cursor: pointer;
+  display: inline-block;
+  width: 18px;
+  height: 14px;
+  background: url(../img/css_sprites.png) -86px -140px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .qbuy {
+  width: 100%;
+  height: 48px;
+  margin-top: 30px;
+}
+.dwrap > .goodswarp > .buybuy > .buy .qbuy > ul li {
+  display: inline-block;
+}
+.dwrap > .goodswarp > .buybuy > .buy .qbuy > ul li > .q1 {
+  display: block;
+  width: 222px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 20px;
+  background-color: #333;
+  margin-right: 20px;
+  border: 1px solid #333;
+  color: #fff;
+  text-align: center;
+}
+.dwrap > .goodswarp > .buybuy > .buy .qbuy > ul li > .q2 {
+  display: block;
+  width: 222px;
+  height: 46px;
+  line-height: 46px;
+  font-size: 20px;
+  margin-right: 20px;
+  border: 1px solid #333;
+  color: #333;
+  text-align: center;
+}
+
+/*# sourceMappingURL=shopd.css.map */

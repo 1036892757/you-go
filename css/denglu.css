@@ -1,0 +1,291 @@
+@charset "utf-8";
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,form,input,fieldset,legend,img,select{
+    margin:0;
+    padding:0;
+}
+ul,ol,li{
+    list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+}
+strong,b{
+    font-weight:normal;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+a{
+   text-decoration: none;
+}
+img{
+		vertical-align:top;
+		border:0;
+}
+.head{
+    width: 100%;
+    height: 40px;
+    background-color: #333333;
+}
+.head-1{
+    width: 1190px;
+    height: 40px;
+    margin: auto; 
+}
+.head-1 li{
+    float: left;
+    line-height: 40px;
+}
+.head-3 a{
+	font-size: 12px;
+	color: #fff;
+}
+.head-1 li:nth-child(1){
+    margin-right: 20px;
+}
+.head-2 li{
+    margin-left: 20px;
+}
+.head-2 li:nth-child(2){
+	width: 50px;
+    text-align: center;
+}
+.head-2 a{
+	color: #fff;
+	font-size: 12px;
+}
+.head-2 span{
+	font-size: 20px;
+	color: #fff;
+}
+.head-3 a:hover{
+	color: darkgrey;
+}
+.logo-container{
+	width: 100%;
+	height: 218px;
+}
+.header-logo{
+	width: 1190px;
+	height: 218px;
+	margin: auto;
+}
+.oimg{
+	margin-top: 55px;
+	margin-left: 440px;
+	margin-bottom: 55px;
+}
+.nav-container>ul>li{
+	float: left;
+	width: 98px;
+	text-align: center;
+	height: 50px;
+}
+.nav-1 a{
+	font-size: 20px;
+	color: #333333;
+	font-weight: bold;
+	line-height: 50px;
+}
+.search-wrapper{
+	height: 50px;
+	margin-right: 18px;
+}
+.search{
+	position: relative;
+}
+.search .iconfont{
+	position: absolute;
+	top: 16px;
+	right: 8px;
+}
+.inp{
+	margin-top: 16px;
+	border: 0;
+	border-bottom: 1px solid;
+	margin-right: 8px;
+}
+.header-gou{
+	width: 100%;
+	height: 69px;
+}
+.header-gou-1{
+	width: 1190px;
+	height: 69px;
+	margin: auto;
+	font-size: 20px;
+}
+.header-gou-1 li{
+	float: left;
+	margin-top: 20px;
+}
+.header-gou-1 li:nth-child(1){
+	width: 180px;
+	border-right: 1px solid silver;
+}
+.header-gou-1 li:nth-child(2){
+	margin-left: 35px;
+	color: silver;
+}
+.BG-img{
+	width: 100%;
+	height: 554px;
+	background: url(../img/BJ.jpg) no-repeat center center;
+}
+.BG-img-1{
+	width: 1190px;
+	height: 554px;
+	margin: auto;
+	position: relative;
+}
+.bg-box{
+	width: 378px;
+	height: 450px;
+	position: absolute;
+	top: 50px;
+	right: 100px;
+	background-color: #fff;
+}
+.bg-box-2{
+	width: 348px;
+	height: 40px;
+	background-color: black;
+	margin-top: 20px;
+	margin-left: 15px;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+}
+.footer-t{
+	width: 100%;
+	height: 40px;
+}
+.footer-t-2{
+	width: 1190px;
+	height: 40px;
+	margin: auto;
+	font-size: 12px;
+	line-height: 40px;
+	text-align: center;
+}
+.footer-t-2>p{
+	margin-top: 10px;
+}
+.footer-t-2 a{
+	color: silver;
+}
+.nreg_form{
+	width: 348px;
+	height: 316px;
+}
+#loginform{
+	width: 338px;
+	height: 286px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+.nreg_item{
+	width: 338px;
+	height: 66px;
+}
+.nreg_input_bg{
+	width: 338px;
+	height: 38px;
+	border: 1px solid;
+	position: relative;
+}
+.nreg_input_bg>span{
+	width: 48px;
+	height: 36px;
+	font-size: 36px;
+}
+.inp{
+	width: 276px;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	top: -14px;
+	left: 60px;
+	border: 0;
+	outline: none;
+}
+.inp-2{
+	width: 276px;
+	height: 36px;
+	line-height: 36px;
+	position: absolute;
+	top: 0px;
+	left: 60px;
+	border: 0;
+	outline: none;
+}
+.errortips{
+	font-size: 12px;
+	display: none;
+}
+.nreg_input_bg-2{
+	width: 338px;
+	height: 38px;
+	border: 1px solid;
+	position: relative;
+	margin-top: 35px;
+}
+.nreg_input_bg-2>span{
+	width: 48px;
+	height: 36px;
+	font-size: 36px;
+}
+.errortips-1{
+	font-size: 12px;
+	display: none;
+	overflow: hidden;
+}
+.niu-center{
+   width: 328px;
+   /* height: 60px; */
+}
+#loginform>.niunext{
+	width: 100%;
+	height: 20px;
+	font-size: 13px;
+	text-align: center;
+}
+.nlogsub{
+	width: 328px;
+	height: 40px;
+	line-height: 40px;
+	background-color: #000;
+	color: #fff;
+	margin-top: 100px;
+	margin-left: 4px;
+}
+.niu-center>.niunext{
+	  width: 328px;
+	  height: 20px;
+	  color: #8888;
+	  font-size: 16px;
+	  text-align: center;
+
+}
+.niu-p1{
+	width: 338px;
+	font-size: 12px;
+	color: #C0C0C0;
+	text-align: center;
+	margin-top: 10px;
+}
+.logo-p1{
+	width: 338px;
+	height: 54px;
+	line-height: 42px;
+	margin-top: 8px;
+}
+.logo-p1 a:nth-child(1){
+	margin-left: 28px;
+}

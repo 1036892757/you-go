@@ -1,0 +1,130 @@
+.head {
+  width: 100%;
+  height: 40px;
+  background: #333333;
+}
+.head .headwarp {
+  width: 1628px;
+  height: 100%;
+  margin: 0 auto;
+}
+.head .headwarp .headleft {
+  height: 100%;
+  float: left;
+  line-height: 40px;
+}
+.head .headwarp .headleft > li {
+  float: left;
+  position: relative;
+  margin-right: 27px;
+}
+.head .headwarp .headleft > li > a {
+  font-size: 12px;
+  color: #fff;
+  list-style: none;
+  display: block;
+}
+.head .headwarp .headleft > li > a:hover {
+  color: darkgrey;
+}
+.head .headwarp .headleft > li > .abs {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  position: absolute;
+  left: -50px;
+  top: 40px;
+  display: none;
+}
+.head .headwarp .headleft > li > .abs > img {
+  width: 100%;
+  height: 100%;
+}
+.head .headwarp .headleft > li > .abs > span {
+  line-height: 0px;
+  display: block;
+  font-size: 12px;
+}
+.head .headwarp .headleft > li > .abs1 {
+  width: 120px;
+  height: 120px;
+  text-align: center;
+  position: absolute;
+  left: -40px;
+  top: 40px;
+  display: none;
+}
+.head .headwarp .headleft > li > .abs1 > img {
+  width: 100%;
+  height: 100%;
+}
+.head .headwarp .headleft > li > .abs1 > span {
+  line-height: 0px;
+  display: block;
+  font-size: 12px;
+}
+.head .headwarp .headright {
+  float: right;
+  line-height: 40px;
+  position: relative;
+}
+.head .headwarp .headright > li {
+  float: left;
+  margin-right: 29px;
+}
+.head .headwarp .headright > li > a {
+  font-size: 12px;
+  color: #fff;
+}
+.head .headwarp .headright > li > a:hover {
+  color: darkgrey;
+}
+.head .headwarp .headright > li i {
+  font-size: 12px;
+  margin-right: 2px;
+}
+.head .headwarp .headright > .welcome-box {
+  color: #fff;
+  font-size: 12px;
+  display: none;
+  text-align: center;
+  margin-top: 2px;
+}
+.head .headwarp .headright > .welcome-box > span {
+  display: inline-block;
+}
+.head .headwarp .headright > .firstli {
+  text-align: center;
+  color: #666666;
+  display: block;
+}
+.head .headwarp .headright > .lastli {
+  margin-right: 4px;
+}
+.head .headwarp .headright > .lastli > a {
+  color: #fff;
+}
+.head .headwarp .headright > .lastli > div {
+  position: absolute;
+  left: 10px;
+}
+.head .headwarp .headright > .lastli > div > ul {
+  width: 180px;
+  background: #fff;
+  border: 1px solid #eee;
+  margin-top: 4px;
+  padding: 15px 15px 30px 20px;
+  display: none;
+}
+.head .headwarp .headright > .lastli > div li {
+  line-height: normal;
+  padding-bottom: 8px;
+  border-bottom: #eee 1px solid;
+}
+.head .headwarp .headright > .lastli > div a {
+  color: #333333;
+  font-size: 12px;
+  line-height: 0px;
+}
+
+/*# sourceMappingURL=head.css.map */
